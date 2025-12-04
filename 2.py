@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generating a Multiplication Table for a Range
 # Difficulty: Easy
 # Topics: Arrays, Basic Programming
@@ -31,3 +32,17 @@ for number, table in multiplication_tables.items(): # Loop through the generated
 # 4 x 1 = 4
 # 4 x 2 = 8
 # 2 x 3 = 6
+=======
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("It is not prime number")
+
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Not prime")
+            break
+    else:
+        print("it is prime number")
+>>>>>>> effc443ba8c8cf2adfe8368759ea014d6133ce16
